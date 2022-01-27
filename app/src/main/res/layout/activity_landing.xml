@@ -4,58 +4,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <View
+    <fragment
+        android:id="@+id/nav_host_fragment"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
-        android:background="@drawable/landing_screen_header_bg"
+        android:layout_height="0dp"
+        app:defaultNavHost="true"
+        app:navGraph="@navigation/nav_graph"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/landingHeader"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:layout_marginTop="100dp"
-        android:text="@string/landingHeaderText"
-        android:textColor="@color/white"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <com.google.android.material.textview.MaterialTextView
-        android:id="@+id/loginHelper"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/loginHelperText"
-        android:textColor="@color/black"
-        android:textSize="25sp"
-        android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/loginAsParentBtn"
-        app:layout_constraintEnd_toEndOf="@+id/loginAsParentBtn"
-        app:layout_constraintStart_toStartOf="@+id/loginAsParentBtn" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/loginAsParentBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="10dp"
-        android:text="@string/loginAsParentBtnText"
-        app:cornerRadius="8dp"
-        app:layout_constraintBottom_toTopOf="@+id/loginAsNurseBtn"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <com.google.android.material.button.MaterialButton
-        android:id="@+id/loginAsNurseBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="10dp"
-        android:text="@string/loginAsNurseBtnText"
-        app:cornerRadius="8dp"
-        android:layout_marginBottom="50dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

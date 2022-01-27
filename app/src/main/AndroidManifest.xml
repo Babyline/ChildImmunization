@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ChildImmunization">
         <activity
-            android:name=".LandingActivity"
+            android:name=".common.ui.LandingActivity"
             android:theme="@style/Theme.NoActionBar"
             android:exported="true">
             <intent-filter>

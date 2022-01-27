@@ -3,10 +3,17 @@
     <string name="landingHeaderText">ChildImmunization</string>
     <string name="loginAsParentBtnText">Parent</string>
     <string name="loginAsNurseBtnText">Nurse</string>
-    <string name="loginHelperText">Login as</string>
+    <string name="landingHelperText">Login as</string>
+    <string name="loginHelperText">Doesn\'t have an account?</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="login">Login</string>
-    <string name="usernamePlaceholder">Username</string>
+    <string name="emailPlaceholder">Email</string>
     <string name="passwordPlaceholder">Password</string>
+    <string name="loginHeader">Welcome back</string>
+    <string name="signUpHeader">Sign up</string>
+    <string name="signUpInstead">Sign up</string>
+    <string name="forgotPassword">Forgot Password</string>
+    <string name="signUpHelperText">Already have an account?</string>
+    <string name="resetPasswordBtn">Reset</string>
 </resources>

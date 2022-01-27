@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".nurse.ui.LoginAsNurseFragment">
+    tools:context=".parent.ui.LoginAsParentFragment">
 
     <View
         android:id="@+id/view"
@@ -20,7 +20,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:layout_marginTop="80dp"
-        android:text="@string/signUpHeader"
+        android:text="@string/loginHeader"
         android:textColor="@color/white"
         android:textSize="30sp"
         android:textStyle="bold"
@@ -28,18 +28,18 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
-        android:padding="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:padding="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/view">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/emailInputLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+            android:id="@+id/usernameInputLayout"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_margin="12dp"
             app:boxCornerRadiusBottomEnd="32dp"
             app:boxCornerRadiusBottomStart="32dp"
             app:boxCornerRadiusTopEnd="32dp"
@@ -53,56 +53,57 @@
             app:placeholderTextColor="@color/black">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/email_input"
+                android:id="@+id/username_input"
+                android:singleLine="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/passwordInputLayout"
-            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.Dense"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="8dp"
+            android:layout_margin="12dp"
             app:boxCornerRadiusBottomEnd="32dp"
             app:boxCornerRadiusBottomStart="32dp"
             app:boxCornerRadiusTopEnd="32dp"
             app:boxCornerRadiusTopStart="32dp"
             app:boxStrokeWidth="0dp"
             app:boxStrokeWidthFocused="0dp"
-            app:layout_constraintTop_toBottomOf="@+id/emailInputLayout"
-            app:placeholderText="@string/passwordPlaceholder"
-            tools:layout_editor_absoluteX="8dp">
+            app:layout_constraintTop_toBottomOf="@+id/usernameInputLayout"
+            app:placeholderText="@string/passwordPlaceholder">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/password_input"
+                android:singleLine="true"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:inputType="textPassword" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/submit_btn"
+            android:id="@+id/loginBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="16dp"
             android:text="@string/login"
             app:cornerRadius="32dp"
-            app:layout_constraintEnd_toEndOf="@+id/emailInputLayout"
-            app:layout_constraintStart_toStartOf="@+id/emailInputLayout"
+            android:padding="16dp"
+            app:layout_constraintEnd_toEndOf="@+id/usernameInputLayout"
+            app:layout_constraintStart_toStartOf="@+id/usernameInputLayout"
             app:layout_constraintTop_toBottomOf="@+id/passwordInputLayout" />
 
         <LinearLayout
             android:padding="8dp"
             android:orientation="vertical"
             android:gravity="center"
-            app:layout_constraintTop_toBottomOf="@id/submit_btn"
+            app:layout_constraintTop_toBottomOf="@id/loginBtn"
             app:layout_constraintStart_toStartOf="@id/passwordInputLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textview.MaterialTextView
-                android:text="@string/loginHelperText"
+                android:text="@string/signUpHelperText"
                 android:layout_width="wrap_content"
                 android:textColor="@color/black"
                 android:textSize="14sp"
@@ -113,14 +114,14 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/signUpInsteadBtn"
-                    style="@style/Widget.MaterialComponents.Button.TextButton"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_alignParentStart="true"
-                    android:text="@string/signUpInstead" />
+                    android:text="@string/signUpInstead"
+                    style="@style/Widget.MaterialComponents.Button.TextButton"
+                    android:layout_height="wrap_content" />
+
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/forgotPasswordBtn"
@@ -134,10 +135,7 @@
 
 
         </LinearLayout>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

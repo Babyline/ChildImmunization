@@ -9,7 +9,11 @@
         <entry key="app/src/main/res/layout/activity_landing.xml" value="0.20260416666666667" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.11302083333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
+        <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/fragment_landing.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.20260416666666667" />
+        <entry key="app/src/main/res/layout/fragment_nurse_login.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/fragment_parent_login.xml" value="0.20208333333333334" />
       </map>
     </option>
   </component>

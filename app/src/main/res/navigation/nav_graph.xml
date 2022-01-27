@@ -3,11 +3,57 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/landingFragment">
 
     <fragment
-        android:id="@+id/loginFragment"
-        android:name="com.babylinechelangat.childimmunization.parent.LoginFragment"
-        android:label="fragment_login"
-        tools:layout="@layout/fragment_login" />
+        android:id="@+id/landingFragment"
+        android:name="com.babylinechelangat.childimmunization.common.ui.LandingFragment"
+        android:label="fragment_landing"
+        tools:layout="@layout/fragment_landing" >
+        <action
+            android:id="@+id/action_landingFragment_to_loginAsParentFragment"
+            app:destination="@id/loginAsParentFragment" />
+        <action
+            android:id="@+id/action_landingFragment_to_loginAsNurseFragment"
+            app:destination="@id/loginAsNurseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginAsNurseFragment"
+        android:name="com.babylinechelangat.childimmunization.nurse.ui.LoginAsNurseFragment"
+        android:label="fragment_nurse_login"
+        tools:layout="@layout/fragment_nurse_login" >
+        <action
+            android:id="@+id/action_loginAsNurseFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_loginAsNurseFragment_to_signUpAsNurseFragment"
+            app:destination="@id/signUpAsNurseFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/loginAsParentFragment"
+        android:name="com.babylinechelangat.childimmunization.parent.ui.LoginAsParentFragment"
+        android:label="fragment_parent_login"
+        tools:layout="@layout/fragment_parent_login" >
+        <action
+            android:id="@+id/action_loginAsParentFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+        <action
+            android:id="@+id/action_loginAsParentFragment_to_signUpAsParentFragment"
+            app:destination="@id/signUpAsParentFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.babylinechelangat.childimmunization.common.ui.ForgotPasswordFragment"
+        android:label="fragment_forgot_password"
+        tools:layout="@layout/fragment_forgot_password" />
+    <fragment
+        android:id="@+id/signUpAsNurseFragment"
+        android:name="com.babylinechelangat.childimmunization.nurse.ui.SignUpAsNurseFragment"
+        android:label="fragment_sign_up_as_nurse"
+        tools:layout="@layout/fragment_sign_up_as_nurse" />
+    <fragment
+        android:id="@+id/signUpAsParentFragment"
+        android:name="com.babylinechelangat.childimmunization.parent.ui.SignUpAsParentFragment"
+        android:label="fragment_sign_up_as_parent"
+        tools:layout="@layout/fragment_sign_up_as_parent" />
 </navigation>
