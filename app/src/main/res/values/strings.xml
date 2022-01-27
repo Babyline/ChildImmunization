@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ChildImmunization</string>
+    <string name="landingHeaderText">ChildImmunization</string>
+    <string name="loginAsParentBtnText">Parent</string>
+    <string name="loginAsNurseBtnText">Nurse</string>
+    <string name="loginHelperText">Login as</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login">Login</string>
+    <string name="usernamePlaceholder">Username</string>
+    <string name="passwordPlaceholder">Password</string>
+</resources>
