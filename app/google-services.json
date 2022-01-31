@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "177320985875",
+    "project_id": "childimmunization-eac1e",
+    "storage_bucket": "childimmunization-eac1e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:177320985875:android:8aba4f4d2a2bc7f371c6e6",
+        "android_client_info": {
+          "package_name": "com.babylinechelangat.childimmunization"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "177320985875-16i35893ufu7d8f79b4eq9aic78dtjqb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.babylinechelangat.childimmunization",
+            "certificate_hash": "43fc1284e9c046159c86e0ecdcbffae3ae6ebf5f"
+          }
+        },
+        {
+          "client_id": "177320985875-0sk1h2hudevjnrtuug6ake6aljtaa6o1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_m45ifC_6oT2WRICNn5juWLgrI_tTBvA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "177320985875-0sk1h2hudevjnrtuug6ake6aljtaa6o1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

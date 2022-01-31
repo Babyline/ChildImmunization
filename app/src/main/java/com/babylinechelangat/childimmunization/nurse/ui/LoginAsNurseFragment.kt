@@ -20,7 +20,8 @@ class LoginAsNurseFragment : Fragment() {
     ): View? {
         _binding = FragmentNurseLoginBinding.inflate(inflater)
         _binding!!.forgotPasswordBtn.setOnClickListener {
-            this.findNavController().navigate(LoginAsNurseFragmentDirections.actionLoginAsNurseFragmentToForgotPasswordFragment())
+            val navController = findNavController()
+             navController.navigate(LoginAsNurseFragmentDirections.actionLoginAsNurseFragmentToForgotPasswordFragment())
         }
 
         _binding!!.signUpInsteadBtn.setOnClickListener {

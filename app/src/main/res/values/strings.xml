@@ -16,4 +16,20 @@
     <string name="forgotPassword">Forgot Password</string>
     <string name="signUpHelperText">Already have an account?</string>
     <string name="resetPasswordBtn">Reset</string>
+    <string name="firstnameHint">Firstname</string>
+    <string name="lastnameHint">Lastname</string>
+    <string name="phoneHint">Phone Number</string>
+    <string name="passwordHint">Password</string>
+    <string name="emailHint">Email</string>
+    <string name="signup">Sign up</string>
+    <string name="title_activity_nurse_dash_board">NurseDashBoardActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_parent_dash_board">ParentDashBoardActivity</string>
 </resources>
