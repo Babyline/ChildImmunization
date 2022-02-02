@@ -87,8 +87,10 @@
             android:id="@+id/submit_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:padding="16dp"
+            android:paddingVertical="16dp"
+            android:paddingHorizontal="70dp"
             android:text="@string/login"
+            android:backgroundTint="@color/light_blue700"
             app:cornerRadius="32dp"
             app:layout_constraintEnd_toEndOf="@+id/emailInputLayout"
             app:layout_constraintStart_toStartOf="@+id/emailInputLayout"
@@ -122,6 +124,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
+                    android:textColor="@color/light_blue700"
                     android:text="@string/signUpInstead" />
 
                 <com.google.android.material.button.MaterialButton
@@ -130,6 +133,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="2"
+                    android:textColor="@color/light_blue700"
                     android:text="@string/forgotPassword" />
             </LinearLayout>
 

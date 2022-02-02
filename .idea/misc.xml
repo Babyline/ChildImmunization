@@ -4,18 +4,25 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.21875" />
+        <entry key="app/src/main/res/drawable/btn_gradient.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.21875" />
         <entry key="app/src/main/res/drawable/landing_screen_header_bg.xml" value="0.193" />
         <entry key="app/src/main/res/layout/activity_landing.xml" value="0.20260416666666667" />
         <entry key="app/src/main/res/layout/activity_login.xml" value="0.11302083333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.20260416666666667" />
-        <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.20208333333333334" />
+        <entry key="app/src/main/res/layout/activity_parent_dash_board.xml" value="0.3123262279888786" />
+        <entry key="app/src/main/res/layout/alert_dialog_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/content_nurse_dash_board.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/content_parent_dash_board.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_forgot_password.xml" value="0.1526268115942029" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.26197916666666665" />
         <entry key="app/src/main/res/layout/fragment_landing.xml" value="0.25" />
         <entry key="app/src/main/res/layout/fragment_login.xml" value="0.20260416666666667" />
         <entry key="app/src/main/res/layout/fragment_nurse_login.xml" value="0.15307971014492755" />
         <entry key="app/src/main/res/layout/fragment_parent_login.xml" value="0.26197916666666665" />
-        <entry key="app/src/main/res/layout/fragment_sign_up_as_nurse.xml" value="0.26197916666666665" />
-        <entry key="app/src/main/res/layout/fragment_sign_up_as_parent.xml" value="0.26197916666666665" />
+        <entry key="app/src/main/res/layout/fragment_sign_up_as_nurse.xml" value="0.1526268115942029" />
+        <entry key="app/src/main/res/layout/fragment_sign_up_as_parent.xml" value="0.1526268115942029" />
       </map>
     </option>
   </component>

@@ -3,6 +3,7 @@ package com.babylinechelangat.childimmunization.common.ui
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.babylinechelangat.childimmunization.databinding.ActivityAuthBinding
+import com.babylinechelangat.childimmunization.util.LoadingDialog
 
 class AuthActivity: AppCompatActivity() {
     private var _binding: ActivityAuthBinding? = null

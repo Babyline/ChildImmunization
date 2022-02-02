@@ -22,7 +22,11 @@
         android:id="@+id/forgotPasswordFragment"
         android:name="com.babylinechelangat.childimmunization.common.ui.ForgotPasswordFragment"
         android:label="fragment_forgot_password"
-        tools:layout="@layout/fragment_forgot_password" />
+        tools:layout="@layout/fragment_forgot_password" >
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_authFragment"
+            app:destination="@id/authFragment" />
+    </fragment>
     <fragment
         android:id="@+id/loginAsNurseFragment"
         android:name="com.babylinechelangat.childimmunization.nurse.ui.LoginAsNurseFragment"
